@@ -37,11 +37,8 @@ const finalArray = [];
 const findPairForSum = (array, number) => {
 
     for (let i of array) {
-        console.log(i);
-        // console.log(number);
         if (i<=number){ 
             newArray.push(i);
-            console.log(newArray);
     }
  }
 
@@ -49,7 +46,6 @@ const findPairForSum = (array, number) => {
      for (let i of array){
         if( j + i === number){
             finalArray.push(j);
-            console.log(finalArray);
         }
      }
  }
