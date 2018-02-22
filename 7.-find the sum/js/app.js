@@ -31,16 +31,16 @@
 
 // Ahora comenta todo el código anterior y pasalo a ES6
 
-const newArray = [];
+// const newArray = [];
 const finalArray = [];
 
 const findPairForSum = (array, number) => {
 
-    for (let i of array) {
-        if (i<=number){ 
-            newArray.push(i);
-    }
- }
+//     for (let i of array) {
+//         if (i<=number){ 
+//             newArray.push(i);
+//     }
+//  }
 
  for (let j of array){
      for (let i of array){

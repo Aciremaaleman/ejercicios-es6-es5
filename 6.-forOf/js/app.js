@@ -2,13 +2,13 @@
 
 // declara la variable
 var array = [10, 20, 30, 20, 30, 40, 60];
-var average;
+var average = 0;
 var count = 0;
 
 // escribe tu funcion
 var arrayAverage = function(array){
     for (var i = 0; i < array.length; i++){
-        // console.log(array[i]);
+        console.log(array[i]);
         count = count + array[i];
         console.log(count);
         average = count / 7;
